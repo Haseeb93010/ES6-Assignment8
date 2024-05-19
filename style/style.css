@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  background-color: #004d54;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.border button {
+  width: 50%;
+  margin: 3px;
+}
+
+.modal {
+  width: 85%;
+  animation-name: haseeb;
+  animation-duration: 5s;
+}
+.modal .modal-content {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@keyframes haseeb {
+  from {
+    height: 0%;
+    overflow-y: hidden;
+  }
+  to {
+    height: 100%;
+    overflow-y: hidden;
+  }
+}
+footer {
+  height: 40px;
+  background-color: #004d54;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+}
+
+#button {
+  background-color: #004d54;
+  box-shadow: #004d54;
+}/*# sourceMappingURL=style.css.map */

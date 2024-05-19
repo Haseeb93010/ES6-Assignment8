@@ -1,0 +1,53 @@
+@import "colors";
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+header {
+    background-color: $primaryColor;
+}
+
+main {
+    flex: 1 0 auto;
+}
+.border {
+    button {
+        width: 50%;
+        margin: 3px;
+    }
+}
+
+.modal {
+    width: 85%;
+    animation-name: haseeb;
+    animation-duration: 5s;
+    .modal-content {
+        width: fit-content;
+    }
+}
+
+@keyframes haseeb {
+    from {
+        height: 0%;
+        overflow-y: hidden;
+    }
+    to {
+        height: 100%;
+        overflow-y: hidden;
+    }
+}
+
+$footerHeight: 40px;
+
+footer {
+    height: $footerHeight;
+    background-color: $primaryColor;
+    line-height: $footerHeight;
+    text-align: center;
+    color: $textColor;
+}
+#button{
+    background-color: $primaryColor;
+    box-shadow: $primaryColor;
+}
